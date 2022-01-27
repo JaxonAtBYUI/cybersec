@@ -78,7 +78,7 @@
         let tokenEmail="";
         $.ajax({
            type: 'GET',
-            url: '/validate/'+usertoken,
+            url: 'https://dev.stdi.me/login'+usertoken,
             success: function(data){
                if (data==""){
                  window.location="/"
